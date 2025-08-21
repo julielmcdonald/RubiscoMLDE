@@ -1,0 +1,11 @@
+Prompts used to get sequences from NCBI:
+
+Bacteria: cbbM[Gene Name] OR cbbL[Gene Name] OR rbcL[Gene Name] AND eubacteria[Organism] 
+Plants: rbcL[Gene Name] AND Tracheophyta[Organism]
+Green algae: cbbM[Gene Name] OR cbbL[Gene Name] OR rbcL[Gene Name] AND Chlorophyta[Organism] 
+Red algae: cbbM[Gene Name] OR cbbL[Gene Name] OR rbcL[Gene Name] AND rhodophyta[Organism]
+Diatoms: (cbbM[Gene Name] OR cbbL[Gene Name] OR rbcL[Gene Name]) AND Bacillariophyta[Organism] 
+
+
+MAFFT alignment
+mafft --auto /plant_rbcL.fasta > /plant_rbcL_aligned.fasta
