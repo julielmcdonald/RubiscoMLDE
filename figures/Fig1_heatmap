@@ -117,3 +117,26 @@ ax.set_xlim(0, 477)
 
 # uncomment to save figure
 # plt.savefig('three_preds_250613.png', dpi=300)
+
+
+#conservation score bar
+
+#input file
+cons = pd.read_csv('/conservation.csv')
+
+plt.figure(figsize=(3, 15))
+
+ax = sns.heatmap(cons, cmap = "coolwarm", )
+
+#plt.savefig('conservation.png', dpi=300)
+
+
+#secondary structure score bar
+#input file
+ss = pd.read_csv('/secondary.csv')
+
+plt.figure(figsize=(3, 15))
+
+ax = sns.heatmap(ss, cmap = "viridis", )
+
+#plt.savefig('secondary_struct.png', dpi=300)
