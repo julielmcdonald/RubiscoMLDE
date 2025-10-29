@@ -1,10 +1,19 @@
-Prompts used to get sequences from NCBI:
+Prompts used to get sequences from NCBI. Sequences are used for calculations in Supplementary Table 5 and Supplementary Figure 7.
 
-Bacteria: cbbM[Gene Name] OR cbbL[Gene Name] OR rbcL[Gene Name] AND eubacteria[Organism] 
-Plants: rbcL[Gene Name] AND Tracheophyta[Organism]
-Green algae: cbbM[Gene Name] OR cbbL[Gene Name] OR rbcL[Gene Name] AND Chlorophyta[Organism] 
-Red algae: cbbM[Gene Name] OR cbbL[Gene Name] OR rbcL[Gene Name] AND rhodophyta[Organism]
-Diatoms: (cbbM[Gene Name] OR cbbL[Gene Name] OR rbcL[Gene Name]) AND Bacillariophyta[Organism] 
+Bacteria: 
+cbbM[Gene Name] OR cbbL[Gene Name] OR rbcL[Gene Name] AND eubacteria[Organism] 
+
+Plants: 
+rbcL[Gene Name] AND Tracheophyta[Organism]
+
+Green algae: 
+cbbM[Gene Name] OR cbbL[Gene Name] OR rbcL[Gene Name] AND Chlorophyta[Organism] 
+
+Red algae: 
+cbbM[Gene Name] OR cbbL[Gene Name] OR rbcL[Gene Name] AND rhodophyta[Organism]
+
+Diatoms: 
+(cbbM[Gene Name] OR cbbL[Gene Name] OR rbcL[Gene Name]) AND Bacillariophyta[Organism] 
 
 
 MAFFT alignment
