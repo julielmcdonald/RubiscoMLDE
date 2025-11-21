@@ -1,4 +1,4 @@
-Prompts used to get sequences from NCBI. Sequences are used for calculations in Supplementary Table 5 and Supplementary Figure 7.
+Prompts used to get sequences from NCBI. Sequences are used for calculations in Supplementary Table 4 and Supplementary Figure 7.
 
 Bacteria: 
 cbbM[Gene Name] OR cbbL[Gene Name] OR rbcL[Gene Name] AND eubacteria[Organism] 
