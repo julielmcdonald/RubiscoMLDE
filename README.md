@@ -16,7 +16,7 @@ Recommended mutations for for the structure-aware model are in [`target/results_
 Code for producing these results is in [`bin/esmif1_score_complex.py`](bin/esmif1_score_complex.py).
 
 # Figure generation
-Code is in the [`figures/`](figures/) directory.
+Code and inputs for heatmap plots are in the [`figures/`](figures/) directory.
 
 # Sequence alignments
-Code is in the [`alignments/`](alignments/) directory.
+Code and output alignments is in the [`alignments/`](alignments/) directory.
