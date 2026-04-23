@@ -2,7 +2,7 @@
 Professor Brian Hie wrote and applied the ESM scripts. 
 
 # RubiscoMLDE
-This repository contains scripts relating to the ML-guided directed evolution of plant Rubisco.
+This repository contains scripts relating to the ML-assisted directed evolution of plant Rubisco.
 
 # ESM Code
 Code is in the [`bin/`](bin/) directory.
